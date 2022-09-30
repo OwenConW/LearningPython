@@ -322,3 +322,28 @@ Binarios:
 .avi
 """
 
+#* R --> Lectura
+#* W --> Escritura (sobrescribe)
+#* A --> Escritura (agregar alfinal)
+
+with open("./rute/del/archivo.txt", "r") as f:
+    pass
+
+
+
+def read():
+    with open("./archivos/numbers.txt", "r", encoding="utf-8") as f:
+        numbers = [int(l) for l in f]
+    print(numbers)
+
+
+def write():
+    pass 
+
+
+def run4():
+    pass 
+
+
+if __name__ == "__main__":
+    run4()
